@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Trophy } from 'lucide-react'
+import { Shield } from 'lucide-react'
 
 const LoadingScreen = () => {
   return (
@@ -12,7 +12,7 @@ const LoadingScreen = () => {
           transition={{ duration: 0.5 }}
           className="mb-8"
         >
-          <Trophy className="w-24 h-24 text-neon-green mx-auto" />
+          <Shield className="w-24 h-24 text-neon-green mx-auto" />
         </motion.div>
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
@@ -20,7 +20,7 @@ const LoadingScreen = () => {
           transition={{ delay: 0.3, duration: 0.5 }}
           className="text-4xl md:text-6xl font-bold text-white mb-4"
         >
-          VIP <span className="text-neon-green neon-text">SIGNALS</span>
+          ESPORTES<span className="text-neon-green neon-text">RETRÔ</span>
         </motion.h1>
         <motion.div
           initial={{ opacity: 0 }}

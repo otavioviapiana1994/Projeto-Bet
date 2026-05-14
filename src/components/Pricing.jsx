@@ -41,7 +41,7 @@ const Pricing = () => {
       color: 'from-neon-green/20 to-emerald-500/20'
     },
     {
-      name: 'Premium VIP',
+      name: 'Premium',
       price: 'R$ 499,90',
       originalPrice: 'R$ 899,90',
       signals: 'Ilimitados',

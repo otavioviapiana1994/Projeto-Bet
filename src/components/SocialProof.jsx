@@ -27,7 +27,7 @@ const SocialProof = () => {
       location: 'Belo Horizonte, MG',
       avatar: '👨‍💻',
       rating: 5,
-      text: 'A sala VIP vale cada centavo. Os analistas realmente sabem o que estão fazendo.',
+      text: 'A EsportesRetrô vale cada centavo. Os analistas realmente sabem o que estão fazendo.',
       profit: 'R$ 15.780',
       days: '60 dias'
     }

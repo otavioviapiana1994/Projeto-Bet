@@ -8,10 +8,10 @@ const PurchaseNotifications = () => {
   const purchases = [
     { name: 'Carlos S.', plan: 'Plano Mensal', city: 'São Paulo' },
     { name: 'Ana M.', plan: 'Plano Semanal', city: 'Rio de Janeiro' },
-    { name: 'Pedro L.', plan: 'Premium VIP', city: 'Belo Horizonte' },
+    { name: 'Pedro L.', plan: 'Premium', city: 'Belo Horizonte' },
     { name: 'Juliana R.', plan: 'Plano Diário', city: 'Curitiba' },
     { name: 'Ricardo F.', plan: 'Plano Mensal', city: 'Salvador' },
-    { name: 'Fernanda K.', plan: 'Premium VIP', city: 'Brasília' },
+    { name: 'Fernanda K.', plan: 'Premium', city: 'Brasília' },
     { name: 'Lucas T.', plan: 'Plano Semanal', city: 'Fortaleza' },
     { name: 'Mariana B.', plan: 'Plano Mensal', city: 'Porto Alegre' }
   ]

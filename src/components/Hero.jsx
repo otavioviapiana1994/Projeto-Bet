@@ -65,8 +65,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-4xl md:text-6xl lg:text-7xl font-black mb-6 leading-tight"
           >
-            GANHE TODOS OS DIAS COM A{' '}
-            <span className="text-neon-green neon-text">NOSSA SALA VIP</span>
+            <span className="text-neon-green neon-text">ESPORTESRETRÔ</span>
           </motion.h1>
 
           <motion.p
@@ -75,7 +74,7 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto"
           >
-            Sinais esportivos analisados profissionalmente com foco em consistência e gestão.
+            Análises esportivas profissionais com foco em consistência e resultados.
           </motion.p>
 
           <motion.div

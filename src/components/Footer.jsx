@@ -1,6 +1,6 @@
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Trophy, Instagram, Send, MessageCircle, Mail, Shield } from 'lucide-react'
+import { Shield, Instagram, Send, MessageCircle, Mail } from 'lucide-react'
 
 const Footer = () => {
   return (
@@ -14,13 +14,13 @@ const Footer = () => {
               viewport={{ once: true }}
               className="flex items-center gap-2 mb-4"
             >
-              <Trophy className="w-10 h-10 text-neon-green" />
+              <Shield className="w-10 h-10 text-neon-green" />
               <span className="text-3xl font-bold">
-                VIP <span className="text-neon-green neon-text">SIGNALS</span>
+                ESPORTES<span className="text-neon-green neon-text">RETRÔ</span>
               </span>
             </motion.div>
             <p className="text-gray-400 mb-6 max-w-md">
-              A melhor sala de sinais esportivos do Brasil. Análises profissionais, 
+              A melhor plataforma de análises esportivas do Brasil. Análises profissionais, 
               consistência comprovada e resultados reais. Junte-se a milhares de apostadores 
               que já estão lucrando.
             </p>
@@ -81,7 +81,7 @@ const Footer = () => {
               </p>
             </div>
             <p className="text-gray-500 text-sm">
-              © 2024 VIP Signals. Todos os direitos reservados.
+              © 2025 EsportesRetrô. Todos os direitos reservados.
             </p>
           </div>
         </div>

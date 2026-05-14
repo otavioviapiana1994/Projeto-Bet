@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Menu, X, Trophy } from 'lucide-react'
+import { Menu, X, Shield } from 'lucide-react'
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -29,9 +29,9 @@ const Navbar = () => {
             whileHover={{ scale: 1.05 }}
             className="flex items-center gap-2"
           >
-            <Trophy className="w-8 h-8 text-neon-green" />
+            <Shield className="w-8 h-8 text-neon-green" />
             <span className="text-2xl font-bold">
-              VIP <span className="text-neon-green neon-text">SIGNALS</span>
+              ESPORTES<span className="text-neon-green neon-text">RETRÔ</span>
             </span>
           </motion.div>
 
@@ -53,7 +53,7 @@ const Navbar = () => {
               whileTap={{ scale: 0.95 }}
               className="bg-neon-green text-black font-bold px-6 py-2 rounded-lg hover:bg-neon-greenDark transition-colors neon-border"
             >
-              Entrar VIP
+Entrar VIP
             </motion.button>
           </div>
 
@@ -86,7 +86,7 @@ const Navbar = () => {
                 FAQ
               </a>
               <button className="bg-neon-green text-black font-bold px-6 py-2 rounded-lg hover:bg-neon-greenDark transition-colors">
-                Entrar VIP
+  Entrar VIP
               </button>
             </div>
           </motion.div>

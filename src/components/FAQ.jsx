@@ -103,9 +103,14 @@ const FAQ = () => {
           className="text-center mt-12"
         >
           <p className="text-gray-400 mb-4">Ainda tem dúvidas?</p>
-          <button className="bg-neon-green text-black font-bold px-8 py-3 rounded-xl hover:bg-neon-greenDark transition-all neon-border">
+          <a
+            href="https://wa.me/553187646492"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-neon-green text-black font-bold px-8 py-3 rounded-xl hover:bg-neon-greenDark transition-all neon-border"
+          >
             Falar com Suporte
-          </button>
+          </a>
         </motion.div>
       </div>
     </section>

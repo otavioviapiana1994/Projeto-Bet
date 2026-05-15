@@ -85,17 +85,6 @@ const HowItWorks = () => {
           ))}
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.5 }}
-          className="text-center mt-12"
-        >
-          <button className="bg-neon-green text-black font-bold px-8 py-3 rounded-xl hover:bg-neon-greenDark transition-all neon-border">
-            Começar Agora
-          </button>
-        </motion.div>
       </div>
     </section>
   )

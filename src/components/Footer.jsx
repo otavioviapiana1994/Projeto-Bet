@@ -81,7 +81,7 @@ const Footer = () => {
               </p>
             </div>
             <p className="text-gray-500 text-sm">
-              © 2025 EsportesRetrô. Todos os direitos reservados.
+              © 2026 EsportesRetrô — Todos os direitos reservados.
             </p>
           </div>
         </div>

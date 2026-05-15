@@ -39,22 +39,12 @@ const Navbar = () => {
             <a href="#pricing" className="text-white hover:text-neon-green transition-colors">
               Planos
             </a>
-            <a href="#results" className="text-white hover:text-neon-green transition-colors">
-              Resultados
-            </a>
             <a href="#how-it-works" className="text-white hover:text-neon-green transition-colors">
               Como Funciona
             </a>
             <a href="#faq" className="text-white hover:text-neon-green transition-colors">
               FAQ
             </a>
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="bg-neon-green text-black font-bold px-6 py-2 rounded-lg hover:bg-neon-greenDark transition-colors neon-border"
-            >
-Entrar VIP
-            </motion.button>
           </div>
 
           <button
@@ -76,18 +66,12 @@ Entrar VIP
               <a href="#pricing" className="text-white hover:text-neon-green transition-colors">
                 Planos
               </a>
-              <a href="#results" className="text-white hover:text-neon-green transition-colors">
-                Resultados
-              </a>
               <a href="#how-it-works" className="text-white hover:text-neon-green transition-colors">
                 Como Funciona
               </a>
               <a href="#faq" className="text-white hover:text-neon-green transition-colors">
                 FAQ
               </a>
-              <button className="bg-neon-green text-black font-bold px-6 py-2 rounded-lg hover:bg-neon-greenDark transition-colors">
-  Entrar VIP
-              </button>
             </div>
           </motion.div>
         )}

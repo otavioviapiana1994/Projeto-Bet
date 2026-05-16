@@ -76,7 +76,7 @@ const Pricing = () => {
             </div>
 
             <motion.a
-              href="https://wa.me/553187646492"
+              href="https://go.perfectpay.com.br/PPU38CQC24M"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}

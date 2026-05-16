@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
-import { Menu, X, Shield } from 'lucide-react'
+import { Menu, X } from 'lucide-react'
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -27,9 +27,23 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <motion.div
             whileHover={{ scale: 1.05 }}
-            className="flex items-center gap-2"
+            className="flex items-center gap-3"
           >
-            <Shield className="w-8 h-8 text-neon-green" />
+            <motion.img
+              src="/logo.png"
+              alt="EsportesRetrô logo"
+              className="w-16 h-16 md:w-24 md:h-24 rounded-full object-cover"
+              initial={{ opacity: 0, scale: 0.8 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ duration: 0.5 }}
+              whileHover={{ 
+                scale: 1.1,
+                filter: 'drop-shadow(0 0 15px rgba(57, 255, 20, 0.8))'
+              }}
+              style={{
+                boxShadow: '0 0 20px rgba(57, 255, 20, 0.3), 0 0 40px rgba(57, 255, 20, 0.1)'
+              }}
+            />
             <span className="text-2xl font-bold">
               ESPORTES<span className="text-neon-green neon-text">RETRÔ</span>
             </span>
